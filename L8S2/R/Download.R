@@ -28,9 +28,10 @@ DownloadL8S2 <- function(Sites,
                          StartDate,
                          EndDate,
                          Indices=c('NDVI','EVI'),
-                         Radius=50,
-                         Outname="Out.csv"
+                         Radius=50
                          ) {
+
+  Outname <- "Out.csv"
   rs.out <- NULL
   #Read the template bash file
   tmp_bash_path <- system.file("templates", "geeDocker_R.sh", package = "L8S2")
