@@ -16,7 +16,15 @@ DownloadL8S2(
 \arguments{
 \item{Sites}{a dataframe with 3 columns : ID, x, y}
 
-\item{Outname}{}
+\item{StartDate}{Start date as a character}
+
+\item{EndDate}{End date as a character}
+
+\item{Indices}{vector of VI indices to be calculated}
+
+\item{Radius}{Numeric Buffer radius}
+
+\item{Outname}{charcter name with csv extension}
 }
 \value{
 

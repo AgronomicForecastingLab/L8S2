@@ -4,11 +4,11 @@
 #' DownloadL8S2
 #'
 #' @param Sites a dataframe with 3 columns : ID, x, y
-#' @param StartDate
-#' @param EndDate
-#' @param Indices
-#' @param Radius
-#' @param Outname
+#' @param StartDate Start date as a character
+#' @param EndDate End date as a character
+#' @param Indices vector of VI indices to be calculated
+#' @param Radius Numeric Buffer radius
+#' @param Outname charcter name with csv extension
 #'
 #' @return
 #' @export
